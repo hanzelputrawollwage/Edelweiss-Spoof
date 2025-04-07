@@ -1,6 +1,6 @@
 ; edelweiss.asm - x64 ARP spoofing tool  
 ; Assemble: nasm -f elf64 edelweiss.asm -o edelweiss.o
-; Ath:      hwollwage
+; Aut:      hwollwage & hnabtje
 ; Run:      sudo ./edelweiss
 
 BITS 64
