@@ -57,14 +57,6 @@ _start:
     syscall
     mov [sock_fd], rax
 
-    ; Bind to interface using sockaddr_ll
-    ; struct sockaddr_ll {
-    ;   unsigned short sll_family   = AF_PACKET (17)
-    ;   unsigned short sll_protocol = htons(0x0806) ; ARP
-    ;   int            sll_ifindex  = <set by ioctl> (we'll hardcode 2 here for eth0)
-    ;   ... (ignore rest for now)
-    ; }
-
     ; prepare sockaddr_ll manually
     mov rbx, sll
     mov word [rbx], 17           ; sll_family = AF_PACKET
