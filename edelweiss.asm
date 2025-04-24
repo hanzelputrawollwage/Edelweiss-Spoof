@@ -46,6 +46,8 @@ _start:
     mov rax, 44
     xor r10, r10
     xor r8, r8
+    mov rdi, 1
+    xor rdi, rdi
     syscall
 
     ; Exit
