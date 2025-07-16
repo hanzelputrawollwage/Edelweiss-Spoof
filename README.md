@@ -1,8 +1,6 @@
 # Edelweiss - x64 ARP Spoofing Tool
-## Author : Hanzel Wollwage & Hana Betje
+## Author : Hanzel Wollwage
 Edelweiss is a minimal x64 Assembly tool that performs ARP spoofing by crafting raw Ethernet and ARP packets and sending them through a raw socket. It is designed for educational purposes, to help understand low-level networking and ARP protocol behavior.
-
-⚠️ **Disclaimer:**
 
 This tool is for **educational and ethical security research purposes only**.
 
@@ -12,11 +10,3 @@ Unauthorized use of ARP spoofing techniques can violate laws and policies, resul
 The author is **not responsible** for any misuse or damages caused by this tool.
 
 ---
-
-## How to Run
-sudo ./run.sh
-
-## How to Build
-
-```bash
-./build.sh
